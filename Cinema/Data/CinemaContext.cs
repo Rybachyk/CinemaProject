@@ -15,8 +15,8 @@ namespace Cinema.Data
             _configuration = configuration;
         }
 
-        public DbSet<Users> Users { get; set; } 
-        public DbSet<Movies> Movies { get; set; } 
+        public DbSet<Users> Users { get; set; }
+        public DbSet<Movies> Movies { get; set; }
         public DbSet<Halls> Halls { get; set; }
         public DbSet<Sessions> Sessions { get; set; }
         public DbSet<Tickets> Tickets { get; set; }
@@ -38,3 +38,4 @@ namespace Cinema.Data
         //    modelBuilder.Entity< IdentityUserToken<string>>().HasNoKey();
         //}
     }
+}
